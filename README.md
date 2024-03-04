@@ -41,6 +41,7 @@
 
 * Extremely low-cost with high-level software
 * Fixed firmware load for >1,000 sensors using Linux gateway
+* Everyone has a different name for specific JST, so we probably should too -- BC4 (BeagleConnect 4-wire)?
 
 ***
 

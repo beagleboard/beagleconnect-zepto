@@ -49,7 +49,12 @@
 
 ![BeagleConnect Zepto USB mark1 - back](image-1.png)
 
-I'm concerned the above doesn't have the 4-pin JST-SH connection that I believe it needs.
+### Feedback
+
+* I'm concerned the above doesn't have the 4-pin JST-SH connection that I believe it needs.
+* I believe we should get to a 1" square layout.
+* I believe we can get by without the buttons.
+* The USB interface will change when we get the updated MSPM0 devices with FS USB. (No need to bit-bang)
 
 ***
 

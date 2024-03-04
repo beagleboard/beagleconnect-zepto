@@ -43,6 +43,14 @@
 * Fixed firmware load for >1,000 sensors using Linux gateway
 * Everyone has a different name for specific JST, so we probably should too -- BC4 (BeagleConnect 4-wire)?
 
+## Conceptual layouts
+
+![BeagleConnect Zepto USB mark1 - front](image.png)
+
+![BeagleConnect Zepto USB mark1 - back](image-1.png)
+
+I'm concerned the above doesn't have the 4-pin JST-SH connection that I believe it needs.
+
 ***
 
 # Editing this README

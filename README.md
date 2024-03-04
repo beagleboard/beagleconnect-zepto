@@ -1,17 +1,46 @@
-# Zepto
+# BeagleConnect Zepto USB / JST
+
+* USB version has 1x USB + 1x JST
+* JST version has 1x JST (power in) + 1x JST (power out)
 
 ## Hardware
 
 * MSPM0 processor
 * Friction-fit mikroBUS
+  * No bottom-side components allow solder-down
 * 1" square PCB
-* USB + JST and 2x JST varities
+* QWIIC-compatible JST-SH
+  * Full Grove function I2C/UART/ADC/GPIO
+* TAG-CONNECT JTAG
+* BOOT/USER pin hole
+  * Consider keeping button separate to avoid cost
 
 ## Software
 
 * Zephyr-based SDK
+  * MCUBOOT-based USB bootloader (hard to brick)
 * BeagleConnect firmware exposing mikroBUS to Linux/Zephyr hosts
+  * Gateway function on USB
+  * Node function on both USB and JST
 * Micropython firmware
+* Microblocks
+  * Based on Zephyr and Arduino Core
+* USB-to-UART
+* USB-to-JTAG
+
+## Accessories (kit versions available)
+
+* 4-pin JST-SH to 4-pin JST-SH
+* mikroBUS to 10-pin TAG-CONNECT JTAG/SWD
+* 4-pin JST-SH to FTDI header
+* 4-pin JST-SH to BeagleBone AI-64 3-pin JST-SH
+* 4-pin JST-SH to BeagleY-AI 3-pin JST-SH
+* 4-pin JST-SH to BeaglePlay 3-pin 0.1" pin header
+
+## Marketing
+
+* Extremely low-cost with high-level software
+* Fixed firmware load for >1,000 sensors using Linux gateway
 
 ***
 

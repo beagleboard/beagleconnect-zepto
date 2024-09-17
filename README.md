@@ -1,4 +1,10 @@
-# BeagleConnect Zepto USB / JST
+# BeagleConnect Zepto
+
+![BeagleConnect Zepto](images/zepto-render-full.png)
+
+| Front           |  Back |
+| :-------------------------: | :-------------------------: |
+| ![BeagleConnect Zepto](images/zepto-render-front.png)  | ![BeagleConnect Zepto](images/zepto-render-back.png) |
 
 * USB version has 1x USB + 1x JST
 * JST version has 1x JST (power in) + 1x JST (power out)

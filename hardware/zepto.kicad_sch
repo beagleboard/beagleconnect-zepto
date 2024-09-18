@@ -7,7 +7,7 @@
 	(title_block
 		(title "BeagleConnect Zepto")
 		(date "2024-09-18")
-		(rev "Mark2")
+		(rev "Mark3")
 		(company "BeagleBoard.org")
 	)
 	(lib_symbols

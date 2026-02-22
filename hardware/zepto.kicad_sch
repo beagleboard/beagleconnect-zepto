@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "BeagleConnect Zepto")
-		(date "2024-09-18")
-		(rev "Mark3")
+		(date "2026-02-15")
+		(rev "Mark4")
 		(company "BeagleBoard.org")
 	)
 	(lib_symbols
@@ -3259,7 +3259,7 @@
 		)
 		(uuid "3e659dfa-e1e9-415c-bae8-dbc42fb08264")
 	)
-	(text "MSPM0L1116 - 64KB/16KB\nMSPM0L1227 - 128KB/32KB\nMSPM0G1519 - 512KB/128KB"
+	(text "MSPM0L1117SRHBR - 128KB/16KB\nMSPM0L1228SRHBR - 256KB/32KB\nMSPM0G1519SRHBR - 512KB/128KB"
 		(exclude_from_sim no)
 		(at 283.972 106.426 0)
 		(effects
@@ -3270,14 +3270,13 @@
 		)
 		(uuid "588b285e-82d8-4c85-bf66-df9c0f85691d")
 	)
-	(text "Populate any 0R\nTo show variant!"
+	(text "Populate any one\nTo show variant!"
 		(exclude_from_sim no)
-		(at 261.112 138.43 0)
+		(at 269.748 137.922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "641cb9d8-db90-42f2-b5ca-76ae96dfbec8")
 	)
@@ -7428,7 +7427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "64K"
+		(property "Value" "5.1K"
 			(at 254.762 134.62 90)
 			(effects
 				(font
@@ -7594,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Value" "MSPM0L/G"
+		(property "Value" "MSPM0L/G-SRHBR"
 			(at 231.14 21.59 0)
 			(effects
 				(font
@@ -8394,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "FB-120R"
 			(at 137.1092 22.86 90)
 			(effects
 				(font
@@ -9430,7 +9429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "128K"
+		(property "Value" "5.1K"
 			(at 255.27 139.7 90)
 			(effects
 				(font
@@ -10303,7 +10302,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "512K"
+		(property "Value" "5.1K"
 			(at 255.27 144.78 90)
 			(effects
 				(font

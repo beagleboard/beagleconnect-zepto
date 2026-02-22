@@ -10,7 +10,7 @@
 	(title_block
 		(title "BeagleConnect Zepto")
 		(date "2024-09-18")
-		(rev "Mark3")
+		(rev "Mark4")
 		(company "BeagleBoard.org")
 	)
 	(layers
@@ -513,7 +513,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST/view-part/"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2015,7 +2015,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "FB-120R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7c7abd36-8f38-4e21-b280-7b0a4629600b")
@@ -2026,7 +2026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C50843.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2039,7 +2039,7 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "CBG160808U121T"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3115,7 +3115,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.snapeda.com/parts/PTS810SJK250SMTRLFS/Littelfuse/view-part/"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3677,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST/view-part/"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4253,7 +4253,7 @@
 				)
 			)
 		)
-		(property "Value" "MSPM0L/G"
+		(property "Value" "MSPM0L/G-SRHBR"
 			(at 8.93 3.615 0)
 			(layer "F.Fab")
 			(uuid "9a0b4625-9818-48e4-8dc1-a343f40a6348")
@@ -4264,7 +4264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/product/MSPM0L1117/part-details/MSPM0L1117SRHBR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4276,7 +4276,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MSPM0L1117SRHBR / MSPM0L1228SRHBR / MSPM0G1519SRHBR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6546,7 +6546,7 @@
 		(path "/89afe299-97be-44a5-b251-0af277d20c0a")
 		(sheetname "/")
 		(sheetfile "zepto.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -8112,7 +8112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.addressable-led.com/UploadFile/upi/file/20190813/LC8805B-2020-LED.pdf"
 			(at -0.6 -0.6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8125,7 +8125,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LC8805B-202 / MH-XCRGB20HWTK020"
 			(at -0.6 -0.6 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8439,7 +8439,7 @@
 		(path "/c3eead20-732d-42bf-b4c3-00ab6999000b")
 		(sheetname "/")
 		(sheetfile "zepto.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -8524,103 +8524,6 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_0.5mm_Mask1mm"
-		(layer "F.Cu")
-		(uuid "d9d0523b-7672-4bbc-a442-736b58ba5a6c")
-		(at 179.615 116.45)
-		(descr "Fiducial, circular marking, 0.5mm bare copper, 1mm soldermask opening (Level C)")
-		(tags "fiducial")
-		(property "Reference" "REF**"
-			(at 0 -1.45 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "21a18f51-946a-4e9b-9655-227ad7f0a8c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial_0.5mm_Mask1mm"
-			(at 0 1.45 0)
-			(layer "F.Fab")
-			(uuid "ffd511fa-8fd5-4b11-b343-eb35bf125b72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3f2bcc2-35b5-415c-8472-316ea9609443")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "146b78ae-9e56-450e-a3b8-5bd703640ec4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr smd exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0.75 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "85307ac5-f5d2-48a4-9629-cd4c8e793485")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.5 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "ee04587e-6794-49e1-a8ad-56b455bb80b8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "2d96fc17-05cb-4c34-81d9-e8835989f06b")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0)
-			(size 0.5 0.5)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.25)
-			(clearance 0.35)
-			(uuid "72c3919f-2e25-45e1-a435-9e3b84dbe7f6")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Upside Down Labs:PTS810"
 		(layer "F.Cu")
 		(uuid "ee6292e9-b690-4504-be5e-06809933bfc0")
@@ -8663,7 +8566,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.snapeda.com/parts/PTS810SJK250SMTRLFS/Littelfuse/view-part/"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
